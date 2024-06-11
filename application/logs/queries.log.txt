@@ -1,0 +1,25 @@
+no queries
+no queries
+no queries
+SELECT `name`
+FROM `classification`
+===[took:0]
+
+SELECT classification_id,code,name,description,if(status=1,'Active','Deactive') as status FROM classification where office_id=1 and type=1 ORDER BY classification_id  desc     LIMIT 0 ,5   
+===[took:0]
+
+no queries
+SELECT `name`
+FROM `classification`
+===[took:0]
+
+SELECT classification_id,code,name,description,if(status=1,'Active','Deactive') as status FROM classification where office_id=1 and type=1 ORDER BY classification_id  desc     LIMIT 0 ,5   
+===[took:0]
+
+SELECT `name`
+FROM `classification`
+===[took:0]
+
+SELECT classification_id,code,name,description,if(status=1,'Active','Deactive') as status FROM classification where office_id=1 and type=1 ORDER BY classification_id  desc     LIMIT 0 ,5   
+===[took:0]
+
